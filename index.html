@@ -28,26 +28,13 @@
 				background-color: #000;
 			}
 
-			@media screen and (min-width: 700px) {
-				.carousel-inner > .item > img{
-					max-height: 550px !important;
-				}
-				
-				.carousel-inner {
-					width:100%;
-					max-height: 650px !important;
-				}
-
+			.carousel-inner > .item > img{
+				max-height: 550px !important;
 			}
-			@media screen and (max-height: 700px) {
-				.carousel-inner > .item > img{
-					max-height: 450px !important;
-				}
-				
-				.carousel-inner {
-					width:100%;
-					max-height: 500px !important;
-				}
+			
+			.carousel-inner {
+				width:100%;
+				max-height: 650px !important;
 			}
 			
 			img {
@@ -86,7 +73,7 @@
 							<li data-target="#carousel-example-generic" data-slide-to="8"></li>
 							<li data-target="#carousel-example-generic" data-slide-to="9"></li>
 						</ol>
-						<div class="carousel-inner" role="listbox">
+						<div class="carousel-inner" role="listbox" style="min-height:500px;">
 							<div class="item active">
 								<h3 class="text-center">墮！天！使！</h3>
 								<p class="text-center">日期:2016/07/20</p>
